@@ -1,0 +1,15 @@
+.scene{position:relative;width:100%;height:100%;touch-action:pan-y;background:#0b0b0d}
+.fallback,.canvas{position:absolute;inset:0;width:100%;height:100%;transition:opacity .6s}
+.fallback{object-fit:cover;object-position:center}
+.canvas{opacity:0;pointer-events:none}
+.scene[data-ready=true] .fallback{opacity:0}.scene[data-ready=true] .canvas{opacity:1}
+.label{position:absolute;left:24px;bottom:24px;font-size:.57rem;line-height:1.5;letter-spacing:.05em;color:#d2c4c6;pointer-events:none}
+.controls{position:absolute;right:24px;bottom:18px;display:flex;gap:.5rem;align-items:center;z-index:5}
+.controls button{display:inline-flex;align-items:center;justify-content:center;gap:.55rem;min-height:44px;padding:.65rem .9rem;border:1px solid #655054;border-radius:30px;background:#171215ed;color:#f8f0eb;font-size:.65rem;font-weight:600}
+.controls button:hover{background:#492027;border-color:#d43a4b}.controls svg{width:15px;height:15px;flex-shrink:0}
+.controls button:focus-visible{outline-color:#fff;outline-offset:3px}
+@media(max-width:700px){.label{left:16px;bottom:76px;font-size:.52rem}.controls{right:16px;left:16px;bottom:18px;justify-content:flex-end}.shuffle span{display:none}.controls button{font-size:.63rem}.fallback{object-fit:contain}}
+@media(prefers-reduced-motion:reduce){.fallback,.canvas{transition:none}}
+
+@media(max-width:800px){.scene[data-variant=journey] .fallback,.scene[data-variant=journey] .canvas{height:calc(100% - 12rem)}.scene[data-variant=journey] .label{bottom:calc(12rem + 76px)}}
+@media(max-height:650px){.scene[data-variant=journey] .fallback,.scene[data-variant=journey] .canvas{height:100%}.scene[data-variant=journey] .label{bottom:76px}}

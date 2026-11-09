@@ -1,0 +1,32 @@
+{
+  "scores": {
+    "performance": 81,
+    "accessibility": 100,
+    "best-practices": 81,
+    "seo": 100
+  },
+  "metrics": {
+    "first-contentful-paint": "2.3 s",
+    "largest-contentful-paint": "4.5 s",
+    "total-blocking-time": "100 ms",
+    "cumulative-layout-shift": "0"
+  },
+  "labelAudit": 1,
+  "blocking": [
+    {
+      "host": "gc.kis.v2.scr.kaspersky-labs.com",
+      "bytes": 174574,
+      "delay": 1502
+    },
+    {
+      "host": "127.0.0.1",
+      "bytes": 4886,
+      "delay": 305
+    },
+    {
+      "host": "127.0.0.1",
+      "bytes": 1754,
+      "delay": 155
+    }
+  ]
+}

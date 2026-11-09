@@ -1,0 +1,10 @@
+{
+  "base": "http://127.0.0.1:3001/my_sait/",
+  "redirect": 308,
+  "webgl": true,
+  "canonical": true,
+  "planetTextures": true,
+  "menuAndAnchors": true,
+  "pageErrors": [],
+  "failedRequests": []
+}

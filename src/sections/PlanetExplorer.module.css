@@ -1,0 +1,276 @@
+.section {
+  padding-block: 2rem clamp(6rem, 10vw, 10rem);
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+.heading h2 {
+  margin: 0;
+  font-size: clamp(3rem, 6.2vw, 6rem);
+  font-weight: 400;
+  line-height: 0.96;
+  letter-spacing: -0.035em;
+}
+.heading h2 span {
+  color: var(--color-muted);
+}
+.heading > p {
+  max-width: 30ch;
+  margin: 0;
+  color: var(--color-muted);
+  font-size: 0.9rem;
+  line-height: 1.8;
+}
+.choices {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.7rem;
+}
+.choices button {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  min-height: 68px;
+  padding: 1rem 1.5rem;
+  border: 0;
+  border-radius: 50px;
+  background: var(--color-surface);
+  color: var(--color-text);
+  font-size: clamp(1.1rem, 1.8vw, 1.7rem);
+  text-align: left;
+  transition:
+    background 180ms ease,
+    color 180ms ease;
+}
+.choices button[aria-pressed="true"] {
+  background: #df2432;
+  color: #fff;
+}
+.choices button:hover {
+  background: var(--color-accent);
+  color: #fff;
+}
+.choiceNumber {
+  font-size: 0.7rem;
+}
+.arrow {
+  margin-left: auto;
+}
+.panel {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  align-items: center;
+  gap: 6%;
+  margin-top: 1.5rem;
+}
+.visual {
+  position: relative;
+  isolation: isolate;
+  display: grid;
+  place-items: center;
+  aspect-ratio: 1.12;
+  min-width: 0;
+  border-radius: 26px;
+  background: #171216;
+}
+.planetName {
+  position: absolute;
+  top: 6%;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  font-size: clamp(3.5rem, 8.3vw, 8.5rem);
+  font-weight: 500;
+  letter-spacing: -0.035em;
+  text-align: center;
+  color: #9f8b92;
+}
+.globe {
+  position: relative;
+  overflow: hidden;
+  width: 57%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  box-shadow:
+    inset -35px -10px 50px 10px #010203,
+    inset 3px 0 7px #dfebf766;
+}
+.texture {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 40% center;
+}
+.globe::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow:
+    inset -35px -10px 50px 10px #010203,
+    inset 3px 0 7px #dfebf766;
+}
+.saturn {
+  width: 46%;
+  filter: saturate(0.75);
+}
+.rings {
+  position: absolute;
+  width: 87%;
+  height: 87%;
+  border-radius: 50%;
+  border: clamp(15px, 3vw, 44px) double #b4a58b;
+  opacity: 0.7;
+  transform: rotate(-22deg) scaleY(0.27);
+  z-index: -1;
+}
+.visualLabel {
+  position: absolute;
+  bottom: 22px;
+  left: 12px;
+  right: 12px;
+  font-size: 0.62rem;
+  letter-spacing: 0.04em;
+  color: #bec3d3;
+  text-align: center;
+}
+.type {
+  font-size: 0.7rem;
+  line-height: 1.8;
+  text-transform: uppercase;
+  letter-spacing: 0.035em;
+  color: var(--color-muted);
+}
+.type span {
+  padding-inline: 0.4rem;
+}
+.detail h3 {
+  margin: 1.5rem 0;
+  font-size: clamp(1.8rem, 2.65vw, 2.9rem);
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+}
+.detail h3 span {
+  display: block;
+}
+.description {
+  max-width: 43ch;
+  font-size: 0.92rem;
+  line-height: 1.8;
+  color: var(--color-muted);
+}
+.facts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 2rem 0 0;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--color-line);
+}
+.facts > div {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 0.5rem;
+}
+.facts dd {
+  margin: 0;
+  font-size: clamp(2rem, 3.3vw, 3.5rem);
+  letter-spacing: -0.035em;
+}
+.facts dt {
+  max-width: 24ch;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  color: var(--color-muted);
+}
+.note {
+  max-width: 46ch;
+  margin-top: 1.4rem;
+  color: var(--color-muted);
+  font-size: 0.7rem;
+  line-height: 1.7;
+}
+.detail > a {
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+}
+@media (max-width: 900px) {
+  .panel {
+    gap: 2rem;
+  }
+  .visual {
+    aspect-ratio: 0.88;
+  }
+  .globe {
+    width: 69%;
+  }
+  .saturn {
+    width: 52%;
+  }
+  .planetName {
+    font-size: 7vw;
+  }
+}
+@media (max-width: 700px) {
+  .heading {
+    display: block;
+  }
+  .heading > p {
+    margin-top: 1.75rem;
+  }
+  .choices {
+    gap: 0.4rem;
+  }
+  .choices button {
+    min-width: 0;
+    min-height: 60px;
+    padding: 0.8rem 0.8rem;
+    gap: 0.45rem;
+    font-size: 1rem;
+  }
+  .choiceNumber {
+    font-size: 0.48rem;
+  }
+  .panel {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+  .visual {
+    aspect-ratio: 1;
+    border-radius: 20px;
+  }
+  .planetName {
+    font-size: 17vw;
+  }
+  .globe {
+    width: 57%;
+  }
+  .saturn {
+    width: 44%;
+  }
+  .rings {
+    border-width: 24px;
+  }
+  .detail h3 {
+    font-size: 2rem;
+  }
+  .facts dd {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 400px) {
+  .choiceNumber {
+    display: none;
+  }
+  .choices button {
+    padding-inline: 0.7rem;
+  }
+}
+
+.arrow { display: inline-flex; } .arrow svg { width: 18px; height: 18px; }

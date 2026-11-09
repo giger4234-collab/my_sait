@@ -1,0 +1,387 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-09T06:40:56.452Z",
+  "title": "Design System: ОРБИТА — ВЕБ СТУДИЯ",
+  "extensions": {
+    "colorMeta": {
+      "bg": {
+        "role": "neutral",
+        "displayName": "Studio Black",
+        "tonalRamp": [
+          "oklch(15% 0.0015 308.18)",
+          "oklch(26% 0.0028 308.18)",
+          "oklch(38% 0.0038 308.18)",
+          "oklch(49% 0.0044 308.18)",
+          "oklch(61% 0.0044 308.18)",
+          "oklch(72% 0.0037 308.18)",
+          "oklch(84% 0.0024 308.18)",
+          "oklch(95% 0.0008 308.18)"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Warm Ivory",
+        "tonalRamp": [
+          "oklch(15% 0.0035 58.21)",
+          "oklch(26% 0.0066 58.21)",
+          "oklch(38% 0.0089 58.21)",
+          "oklch(49% 0.0101 58.21)",
+          "oklch(61% 0.0101 58.21)",
+          "oklch(72% 0.0086 58.21)",
+          "oklch(84% 0.0056 58.21)",
+          "oklch(95% 0.0018 58.21)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted Rose Grey",
+        "tonalRamp": [
+          "oklch(15% 0.0060 347.78)",
+          "oklch(26% 0.0111 347.78)",
+          "oklch(38% 0.0150 347.78)",
+          "oklch(49% 0.0170 347.78)",
+          "oklch(61% 0.0170 347.78)",
+          "oklch(72% 0.0145 347.78)",
+          "oklch(84% 0.0094 347.78)",
+          "oklch(95% 0.0031 347.78)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Signal Red",
+        "tonalRamp": [
+          "oklch(15% 0.0595 24.44)",
+          "oklch(26% 0.1105 24.44)",
+          "oklch(38% 0.1496 24.44)",
+          "oklch(49% 0.1700 24.44)",
+          "oklch(61% 0.1700 24.44)",
+          "oklch(72% 0.1445 24.44)",
+          "oklch(84% 0.0935 24.44)",
+          "oklch(95% 0.0306 24.44)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Warm Divider",
+        "tonalRamp": [
+          "oklch(15% 0.0076 354.91)",
+          "oklch(26% 0.0141 354.91)",
+          "oklch(38% 0.0191 354.91)",
+          "oklch(49% 0.0217 354.91)",
+          "oklch(61% 0.0217 354.91)",
+          "oklch(72% 0.0184 354.91)",
+          "oklch(84% 0.0119 354.91)",
+          "oklch(95% 0.0039 354.91)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Burgundy Charcoal",
+        "tonalRamp": [
+          "oklch(15% 0.0055 349.78)",
+          "oklch(26% 0.0102 349.78)",
+          "oklch(38% 0.0138 349.78)",
+          "oklch(49% 0.0156 349.78)",
+          "oklch(61% 0.0156 349.78)",
+          "oklch(72% 0.0133 349.78)",
+          "oklch(84% 0.0086 349.78)",
+          "oklch(95% 0.0028 349.78)"
+        ]
+      },
+      "scene-bg": {
+        "role": "neutral",
+        "displayName": "Stage Black",
+        "tonalRamp": [
+          "oklch(15% 0.0015 285.88)",
+          "oklch(26% 0.0028 285.88)",
+          "oklch(38% 0.0037 285.88)",
+          "oklch(49% 0.0042 285.88)",
+          "oklch(61% 0.0042 285.88)",
+          "oklch(72% 0.0036 285.88)",
+          "oklch(84% 0.0023 285.88)",
+          "oklch(95% 0.0008 285.88)"
+        ]
+      },
+      "contact-bg": {
+        "role": "primary",
+        "displayName": "Contact Red",
+        "tonalRamp": [
+          "oklch(15% 0.0595 23.54)",
+          "oklch(26% 0.1105 23.54)",
+          "oklch(38% 0.1496 23.54)",
+          "oklch(49% 0.1700 23.54)",
+          "oklch(61% 0.1700 23.54)",
+          "oklch(72% 0.1445 23.54)",
+          "oklch(84% 0.0935 23.54)",
+          "oklch(95% 0.0306 23.54)"
+        ]
+      },
+      "focus": {
+        "role": "primary",
+        "displayName": "Focus Rose",
+        "tonalRamp": [
+          "oklch(15% 0.0563 15.28)",
+          "oklch(26% 0.1045 15.28)",
+          "oklch(38% 0.1415 15.28)",
+          "oklch(49% 0.1608 15.28)",
+          "oklch(61% 0.1608 15.28)",
+          "oklch(72% 0.1367 15.28)",
+          "oklch(84% 0.0885 15.28)",
+          "oklch(95% 0.0289 15.28)"
+        ]
+      },
+      "lacquer": {
+        "role": "primary",
+        "displayName": "Lacquer",
+        "tonalRamp": [
+          "oklch(15% 0.0595 24.72)",
+          "oklch(26% 0.1105 24.72)",
+          "oklch(38% 0.1496 24.72)",
+          "oklch(49% 0.1700 24.72)",
+          "oklch(61% 0.1700 24.72)",
+          "oklch(72% 0.1445 24.72)",
+          "oklch(84% 0.0935 24.72)",
+          "oklch(95% 0.0306 24.72)"
+        ]
+      },
+      "vermilion": {
+        "role": "primary",
+        "displayName": "Vermilion",
+        "tonalRamp": [
+          "oklch(15% 0.0595 29.64)",
+          "oklch(26% 0.1105 29.64)",
+          "oklch(38% 0.1496 29.64)",
+          "oklch(49% 0.1700 29.64)",
+          "oklch(61% 0.1700 29.64)",
+          "oklch(72% 0.1445 29.64)",
+          "oklch(84% 0.0935 29.64)",
+          "oklch(95% 0.0306 29.64)"
+        ]
+      },
+      "chrome": {
+        "role": "neutral",
+        "displayName": "Chrome Grey",
+        "tonalRamp": [
+          "oklch(15% 0.0016 17.27)",
+          "oklch(26% 0.0030 17.27)",
+          "oklch(38% 0.0041 17.27)",
+          "oklch(49% 0.0046 17.27)",
+          "oklch(61% 0.0046 17.27)",
+          "oklch(72% 0.0039 17.27)",
+          "oklch(84% 0.0026 17.27)",
+          "oklch(95% 0.0008 17.27)"
+        ]
+      },
+      "wine": {
+        "role": "primary",
+        "displayName": "Wine",
+        "tonalRamp": [
+          "oklch(15% 0.0304 17.08)",
+          "oklch(26% 0.0564 17.08)",
+          "oklch(38% 0.0763 17.08)",
+          "oklch(49% 0.0867 17.08)",
+          "oklch(61% 0.0867 17.08)",
+          "oklch(72% 0.0737 17.08)",
+          "oklch(84% 0.0477 17.08)",
+          "oklch(95% 0.0156 17.08)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Short hero heading with tight tracking."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Large studio, experiment, and process headings."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Study captions."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Studio paragraphs with generous leading."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Compact header descriptor and metadata."
+      }
+    },
+    "shadows": [
+      {
+        "name": "open-navigation",
+        "value": "0 24px 60px #0008",
+        "purpose": "Separates the open dropdown from the page."
+      },
+      {
+        "name": "atlas-volume",
+        "value": "inset -35px -10px 50px 10px #010203, inset 3px 0 7px #dfebf766",
+        "purpose": "Models the shaded edge of atlas globes."
+      }
+    ],
+    "motion": [
+      {
+        "name": "control-transition",
+        "value": "background .2s, color .2s",
+        "purpose": "Header action states."
+      },
+      {
+        "name": "atlas-transition",
+        "value": "background 180ms ease, color 180ms ease",
+        "purpose": "Planet hover and selection."
+      },
+      {
+        "name": "reveal",
+        "value": "transform .85s cubic-bezier(.16,1,.3,1)",
+        "purpose": "Content rises 30px into place when in view."
+      },
+      {
+        "name": "scene-crossfade",
+        "value": "opacity .6s",
+        "purpose": "Poster-to-canvas handover."
+      },
+      {
+        "name": "marquee",
+        "value": "32s linear infinite",
+        "purpose": "Red type interlude; disabled for reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "narrow-atlas",
+        "value": "400px"
+      },
+      {
+        "name": "compact-header",
+        "value": "480px"
+      },
+      {
+        "name": "mobile-hero",
+        "value": "600px"
+      },
+      {
+        "name": "stacked-content",
+        "value": "700px"
+      },
+      {
+        "name": "mobile-scene",
+        "value": "800px"
+      },
+      {
+        "name": "compact-navigation",
+        "value": "900px"
+      },
+      {
+        "name": "tablet-editorial",
+        "value": "1000px"
+      },
+      {
+        "name": "wide-hero",
+        "value": "1100px"
+      }
+    ],
+    "rampNote": "Tonal ramps are synthesized OKLCH previews, not additional implementation tokens.",
+    "verification": "Extracted from CSS and scene source. Rendered appearance and browser interactions were not visually verified in this documentation pass.",
+    "snippetNote": "Snippets preserve source visual states. Stateful application behavior is supplied by the React components; no framework runtime is required to render these examples."
+  },
+  "components": [
+    {
+      "name": "Contact Pill",
+      "kind": "button",
+      "refersTo": "button-contact",
+      "description": "Compact header contact action linking to Telegram.",
+      "html": "<a class=\"ds-contact\" href=\"https://t.me/webdiz3d\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Обсудим идею</span><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a>",
+      "css": ".ds-contact{display:inline-flex;align-items:center;justify-content:center;gap:1.2rem;min-height:46px;padding:.75rem 1.15rem;border:0;border-radius:30px;text-decoration:none;font-family:var(--font-sans,Manrope,sans-serif);font-size:.7rem;font-weight:650;white-space:nowrap;transition:background .2s,color .2s;color:#fff;background:var(--color-accent,#df2432)}.ds-contact svg{width:18px;height:18px;flex-shrink:0}.ds-contact:hover{background:#b6181f}.ds-contact:focus-visible{outline:3px solid #ff7b89;outline-offset:5px;}@media(prefers-reduced-motion:reduce){.ds-contact{transition:none}}"
+    },
+    {
+      "name": "Menu Pill",
+      "kind": "button",
+      "refersTo": "button-menu",
+      "description": "Quiet header toggle; the application supplies open and closed states.",
+      "html": "<button type=\"button\" class=\"ds-menu\" aria-label=\"Открыть меню\">МЕНЮ<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" aria-hidden=\"true\"><path d=\"M5 8h14M5 16h14\"/><circle cx=\"17\" cy=\"8\" r=\"1.5\" fill=\"currentColor\" stroke=\"none\"/></svg></button>",
+      "css": ".ds-menu{display:inline-flex;align-items:center;justify-content:center;gap:1.2rem;min-height:46px;padding:.75rem 1.15rem;border:0;border-radius:30px;font-family:var(--font-sans,Manrope,sans-serif);font-size:.7rem;font-weight:650;background:#242225;color:var(--color-text,#f5eee9);cursor:pointer;transition:background .2s,color .2s}.ds-menu svg{width:18px;height:18px}.ds-menu:hover{background:#393336}.ds-menu:focus-visible{outline:3px solid #ff7b89;outline-offset:5px;}@media(prefers-reduced-motion:reduce){.ds-menu{transition:none}}"
+    },
+    {
+      "name": "Text Link",
+      "kind": "button",
+      "refersTo": "text-link",
+      "description": "Secondary inline action for section jumps or source links.",
+      "html": "<a class=\"ds-text-link\" href=\"#experience\">Почувствовать в движении<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a>",
+      "css": ".ds-text-link{display:inline-flex;align-items:center;gap:1rem;min-height:44px;font-family:var(--font-sans,Manrope,sans-serif);font-size:.85rem;font-weight:600;color:var(--color-text,#f5eee9);text-underline-offset:.25em}.ds-text-link svg{width:18px;height:18px;flex-shrink:0}.ds-text-link:hover{color:#ff8b97}.ds-text-link:focus-visible{outline:3px solid #ff7b89;outline-offset:5px;}"
+    },
+    {
+      "name": "Expanded Navigation",
+      "kind": "nav",
+      "refersTo": "navigation-panel",
+      "description": "Editorial dropdown shown in its open state.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Главная навигация\"><a href=\"#studio\">Веб студия<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a><a href=\"#experience\">Форма и движение<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a><a href=\"#contact\">Контакт<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a></nav>",
+      "css": ".ds-nav{width:min(440px,100%);padding:1.5rem 2rem;background:#201a1c;border:1px solid #49393c;border-radius:16px;box-shadow:0 24px 60px #0008;color:var(--color-text,#f5eee9);font-family:var(--font-sans,Manrope,sans-serif);}.ds-nav a{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:68px;border-bottom:1px solid #49393c;text-decoration:none;font-size:1.35rem;letter-spacing:-.025em;color:inherit}.ds-nav a:last-child{border-bottom:0}.ds-nav a:hover{color:#ff686c}.ds-nav a:focus-visible{outline:3px solid #ff7b89;outline-offset:5px;}.ds-nav svg{width:20px;height:20px;flex-shrink:0}"
+    },
+    {
+      "name": "Planet Choice",
+      "kind": "button",
+      "refersTo": "planet-choice",
+      "description": "Atlas pill with number, name, and arrow; selected state shown.",
+      "html": "<button type=\"button\" class=\"ds-choice\" aria-pressed=\"true\"><span class=\"ds-choice-number\">01</span>Земля<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></button>",
+      "css": ".ds-choice{display:flex;align-items:center;gap:1rem;min-height:68px;padding:1rem 1.5rem;border:0;border-radius:50px;background:var(--color-surface,#271e22);color:var(--color-text,#f5eee9);font-family:var(--font-sans,Manrope,sans-serif);font-size:clamp(1.1rem,1.8vw,1.7rem);text-align:left;cursor:pointer;transition:background 180ms ease,color 180ms ease}.ds-choice[aria-pressed=true],.ds-choice:hover{background:var(--color-accent,#df2432);color:#fff}.ds-choice-number{font-size:.7rem}.ds-choice svg{width:18px;height:18px;margin-left:auto}.ds-choice:focus-visible{outline:3px solid #ff7b89;outline-offset:5px;}@media(prefers-reduced-motion:reduce){.ds-choice{transition:none}}"
+    },
+    {
+      "name": "Chapter Step",
+      "kind": "button",
+      "refersTo": "chapter-step",
+      "description": "Circular chapter selectors with the current step shown in red.",
+      "html": "<div class=\"ds-steps\" role=\"group\" aria-label=\"Перейти к главе\"><button type=\"button\" aria-label=\"ФОРМА\" aria-current=\"step\">01</button><button type=\"button\" aria-label=\"ДВИЖЕНИЕ\">02</button><button type=\"button\" aria-label=\"ПРОСТРАНСТВО\">03</button></div>",
+      "css": ".ds-steps{display:flex;gap:.5rem}.ds-steps button{display:grid;place-items:center;min-width:44px;min-height:44px;background:#21171bd9;border:1px solid #685156;border-radius:50%;color:#f4e9ec;font-family:var(--font-sans,Manrope,sans-serif);font-size:.7rem;cursor:pointer;transition:background .2s}.ds-steps button[aria-current=step]{background:var(--color-accent,#df2432);border-color:var(--color-accent,#df2432);color:#fff}.ds-steps button:hover{border-color:#ff6c76}.ds-steps button:focus-visible{outline:3px solid #ff7b89;outline-offset:5px;}@media(prefers-reduced-motion:reduce){.ds-steps button{transition:none}}"
+    },
+    {
+      "name": "Scene Control",
+      "kind": "button",
+      "refersTo": "scene-control",
+      "description": "Bordered bottom-right scene action, shown as pause.",
+      "html": "<button type=\"button\" class=\"ds-scene-control\" aria-label=\"Пауза анимации\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" aria-hidden=\"true\"><path d=\"M8 5v14M16 5v14\"/></svg><span>Пауза</span></button>",
+      "css": ".ds-scene-control{display:inline-flex;align-items:center;justify-content:center;gap:.55rem;min-height:44px;padding:.65rem .9rem;border:1px solid #655054;border-radius:30px;background:#171215ed;color:#f8f0eb;font-family:var(--font-sans,Manrope,sans-serif);font-size:.65rem;font-weight:600;cursor:pointer}.ds-scene-control svg{width:15px;height:15px;flex-shrink:0}.ds-scene-control:hover{background:#492027;border-color:#d43a4b}.ds-scene-control:focus-visible{outline:3px solid #fff;outline-offset:3px}.ds-scene-control:disabled{cursor:wait;opacity:.65}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Lacquer Orbit",
+    "overview": "A dark editorial web studio: oversized Russian typography, generous pauses, and abstract red lacquer and chrome forms. The visual reference is the immersive, long-scroll character of lusion.co; the implementation uses its own orbital mark, geometry, copy, and composition.\n\nThe scene is the primary visual material. Compact controls and quiet supporting text frame it, while the red contact field gives the scroll a clear destination. ОРБИТА remains the brand; ВЕБ СТУДИЯ is the header descriptor. Earth, Mars, and Saturn remain an interactive atlas within this world.",
+    "keyCharacteristics": [
+      "Near-black stages, warm text, and a single red UI accent.",
+      "Large editorial headings with small, precise controls.",
+      "Real-time lacquer and chrome geometry with a static poster alternative.",
+      "Asymmetric, spacious sections that collapse into a clear mobile sequence."
+    ],
+    "rules": [
+      {
+        "name": "The Material Rule",
+        "body": "Use red for primary actions, selection, and the scene material; retain warm neutrals for reading and structure.",
+        "section": "colors"
+      },
+      {
+        "name": "The Scale Rule",
+        "body": "Let headlines supply emphasis through size and tight tracking; keep supporting text quieter and comfortably spaced.",
+        "section": "typography"
+      },
+      {
+        "name": "The Stage Rule",
+        "body": "Create depth through the artwork and tonal separation. Reserve interface shadows for the open navigation panel.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep the dark red-and-black studio direction, orbital mark, and ВЕБ СТУДИЯ descriptor.",
+      "Do give the abstract forms generous space and alternate full-width and offset compositions.",
+      "Do use local Manrope, visible keyboard focus, and the existing 44px-or-larger control targets.",
+      "Do preserve the static poster, mobile opt-in, and reduced-motion reading path.",
+      "Do retain the three-planet atlas and the Telegram contact @webdiz3d."
+    ],
+    "donts": [
+      "Don't substitute a generic card grid for the large scene-led editorial rhythm.",
+      "Don't replace the lacquer and chrome material language with unrelated visual effects.",
+      "Don't hide essential copy behind an animation or require WebGL to reach content.",
+      "Don't invent client work, testimonials, or commercial proof to fill the layout."
+    ]
+  }
+}

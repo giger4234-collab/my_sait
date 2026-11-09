@@ -1,0 +1,692 @@
+{
+  "cases": [
+    {
+      "name": "layout 360x800",
+      "status": "pass",
+      "data": {
+        "width": 360,
+        "scrollWidth": 360,
+        "height": 8535,
+        "overflowing": [],
+        "images": [
+          {
+            "src": "/assets/images/abstract-studio.webp",
+            "ok": true
+          },
+          {
+            "src": "/assets/images/abstract-studio.webp",
+            "ok": true
+          },
+          {
+            "src": "/assets/images/abstract-studio.webp",
+            "ok": true
+          },
+          {
+            "src": "/assets/images/abstract-studio.webp",
+            "ok": true
+          },
+          {
+            "src": "/assets/textures/earth.webp",
+            "ok": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "layout 390x844",
+      "status": "pass",
+      "data": {
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 8503,
+        "overflowing": [],
+        "images": [
+          {
+            "src": "/assets/images/abstract-studio.webp",
+            "ok": true
+          },
+          {
+            "src": "/assets/images/abstract-studio.webp",
+            "ok": true
+          },
+          {
+            "src": "/assets/images/abstract-studio.webp",
+            "ok": true
+          },
+          {
+            "src": "/assets/images/abstract-studio.webp",
+            "ok": true
+          },
+          {
+            "src": "/assets/textures/earth.webp",
+            "ok": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "layout 768x1024",
+      "status": "pass",
+      "data": {
+        "width": 768,
+        "scrollWidth": 768,
+        "height": 8994,
+        "overflowing": [],
+        "images": [
+          {
+            "src": "/assets/images/abstract-studio.webp",
+            "ok": true
+          },
+          {
+            "src": "/assets/images/abstract-studio.webp",
+            "ok": true
+          },
+          {
+            "src": "/assets/images/abstract-studio.webp",
+            "ok": true
+          },
+          {
+            "src": "/assets/images/abstract-studio.webp",
+            "ok": true
+          },
+          {
+            "src": "/assets/textures/earth.webp",
+            "ok": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "layout 1366x900",
+      "status": "pass",
+      "data": {
+        "width": 1366,
+        "scrollWidth": 1366,
+        "height": 9227,
+        "overflowing": [],
+        "images": [
+          {
+            "src": "/assets/images/abstract-studio.webp",
+            "ok": true
+          },
+          {
+            "src": "/assets/images/abstract-studio.webp",
+            "ok": true
+          },
+          {
+            "src": "/assets/images/abstract-studio.webp",
+            "ok": true
+          },
+          {
+            "src": "/assets/images/abstract-studio.webp",
+            "ok": true
+          },
+          {
+            "src": "/assets/textures/earth.webp",
+            "ok": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "layout 1920x1080",
+      "status": "pass",
+      "data": {
+        "width": 1920,
+        "scrollWidth": 1920,
+        "height": 9949,
+        "overflowing": [],
+        "images": [
+          {
+            "src": "/assets/images/abstract-studio.webp",
+            "ok": true
+          },
+          {
+            "src": "/assets/images/abstract-studio.webp",
+            "ok": true
+          },
+          {
+            "src": "/assets/images/abstract-studio.webp",
+            "ok": true
+          },
+          {
+            "src": "/assets/images/abstract-studio.webp",
+            "ok": true
+          },
+          {
+            "src": "/assets/textures/earth.webp",
+            "ok": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "layout 1366x500",
+      "status": "pass",
+      "data": {
+        "width": 1366,
+        "scrollWidth": 1366,
+        "height": 8953,
+        "overflowing": [],
+        "images": [
+          {
+            "src": "/assets/images/abstract-studio.webp",
+            "ok": true
+          },
+          {
+            "src": "/assets/images/abstract-studio.webp",
+            "ok": true
+          },
+          {
+            "src": "/assets/images/abstract-studio.webp",
+            "ok": true
+          },
+          {
+            "src": "/assets/images/abstract-studio.webp",
+            "ok": true
+          },
+          {
+            "src": "/assets/textures/earth.webp",
+            "ok": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "layout 844x390",
+      "status": "pass",
+      "data": {
+        "width": 844,
+        "scrollWidth": 844,
+        "height": 8553,
+        "overflowing": [],
+        "images": [
+          {
+            "src": "/assets/images/abstract-studio.webp",
+            "ok": true
+          },
+          {
+            "src": "/assets/images/abstract-studio.webp",
+            "ok": true
+          },
+          {
+            "src": "/assets/images/abstract-studio.webp",
+            "ok": true
+          },
+          {
+            "src": "/assets/images/abstract-studio.webp",
+            "ok": true
+          },
+          {
+            "src": "/assets/textures/earth.webp",
+            "ok": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "menu keyboard and atlas",
+      "status": "pass",
+      "data": {
+        "contacts": 3
+      }
+    },
+    {
+      "name": "desktop WebGL, pause, recompose, chapters",
+      "status": "pass",
+      "data": {
+        "webgl": true
+      }
+    },
+    {
+      "name": "mobile opt-in 3D and synthesized touch scroll",
+      "status": "pass",
+      "data": {
+        "before": 0,
+        "after": 636
+      }
+    },
+    {
+      "name": "live controls 360x800",
+      "status": "pass",
+      "data": {
+        "buttons": [
+          {
+            "x": 206.546875,
+            "y": 738.390625,
+            "width": 83.671875,
+            "height": 44,
+            "top": 738.390625,
+            "right": 290.21875,
+            "bottom": 782.390625,
+            "left": 206.546875
+          },
+          {
+            "x": 298.21875,
+            "y": 738.390625,
+            "width": 45.78125,
+            "height": 44,
+            "top": 738.390625,
+            "right": 344,
+            "bottom": 782.390625,
+            "left": 298.21875
+          }
+        ],
+        "text": [
+          {
+            "x": 20,
+            "y": 551.25,
+            "width": 320,
+            "height": 37.796875,
+            "top": 551.25,
+            "right": 340,
+            "bottom": 589.046875,
+            "left": 20
+          },
+          {
+            "x": 20,
+            "y": 609.84375,
+            "width": 295.140625,
+            "height": 70.546875,
+            "top": 609.84375,
+            "right": 315.140625,
+            "bottom": 680.390625,
+            "left": 20
+          }
+        ]
+      }
+    },
+    {
+      "name": "live controls 390x844",
+      "status": "pass",
+      "data": {
+        "buttons": [
+          {
+            "x": 236.546875,
+            "y": 782.390625,
+            "width": 83.671875,
+            "height": 44,
+            "top": 782.390625,
+            "right": 320.21875,
+            "bottom": 826.390625,
+            "left": 236.546875
+          },
+          {
+            "x": 328.21875,
+            "y": 782.390625,
+            "width": 45.78125,
+            "height": 44,
+            "top": 782.390625,
+            "right": 374,
+            "bottom": 826.390625,
+            "left": 328.21875
+          }
+        ],
+        "text": [
+          {
+            "x": 20,
+            "y": 595.25,
+            "width": 342.359375,
+            "height": 37.796875,
+            "top": 595.25,
+            "right": 362.359375,
+            "bottom": 633.046875,
+            "left": 20
+          },
+          {
+            "x": 20,
+            "y": 653.84375,
+            "width": 295.140625,
+            "height": 70.546875,
+            "top": 653.84375,
+            "right": 315.140625,
+            "bottom": 724.390625,
+            "left": 20
+          }
+        ]
+      }
+    },
+    {
+      "name": "live controls 1366x500",
+      "status": "pass",
+      "data": {
+        "buttons": [
+          {
+            "x": 1109.109375,
+            "y": 438.328125,
+            "width": 84.59375,
+            "height": 44,
+            "top": 438.328125,
+            "right": 1193.703125,
+            "bottom": 482.328125,
+            "left": 1109.109375
+          },
+          {
+            "x": 1201.703125,
+            "y": 438.328125,
+            "width": 140.296875,
+            "height": 44,
+            "top": 438.328125,
+            "right": 1342,
+            "bottom": 482.328125,
+            "left": 1201.703125
+          }
+        ],
+        "text": [
+          {
+            "x": 68.296875,
+            "y": 315.234375,
+            "width": 301.265625,
+            "height": 27.71875,
+            "top": 315.234375,
+            "right": 369.5625,
+            "bottom": 342.953125,
+            "left": 68.296875
+          },
+          {
+            "x": 68.296875,
+            "y": 352.546875,
+            "width": 307.4375,
+            "height": 55.78125,
+            "top": 352.546875,
+            "right": 375.734375,
+            "bottom": 408.328125,
+            "left": 68.296875
+          }
+        ]
+      }
+    },
+    {
+      "name": "live controls 844x390",
+      "status": "pass",
+      "data": {
+        "buttons": [
+          {
+            "x": 587.109375,
+            "y": 328.34375,
+            "width": 84.59375,
+            "height": 44,
+            "top": 328.34375,
+            "right": 671.703125,
+            "bottom": 372.34375,
+            "left": 587.109375
+          },
+          {
+            "x": 679.703125,
+            "y": 328.34375,
+            "width": 140.296875,
+            "height": 44,
+            "top": 328.34375,
+            "right": 820,
+            "bottom": 372.34375,
+            "left": 679.703125
+          }
+        ],
+        "text": [
+          {
+            "x": 42.1875,
+            "y": 205.25,
+            "width": 301.265625,
+            "height": 27.71875,
+            "top": 205.25,
+            "right": 343.453125,
+            "bottom": 232.96875,
+            "left": 42.1875
+          },
+          {
+            "x": 42.1875,
+            "y": 242.5625,
+            "width": 307.4375,
+            "height": 55.78125,
+            "top": 242.5625,
+            "right": 349.625,
+            "bottom": 298.34375,
+            "left": 42.1875
+          }
+        ]
+      }
+    },
+    {
+      "name": "WebGL context loss fallback",
+      "status": "pass",
+      "data": {
+        "fallbackAfterLoss": true
+      }
+    },
+    {
+      "name": "WebGL unavailable fallback",
+      "status": "pass",
+      "data": {
+        "fallback": true
+      }
+    }
+  ],
+  "viewport": [
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "height": 8535,
+      "overflowing": [],
+      "images": [
+        {
+          "src": "/assets/images/abstract-studio.webp",
+          "ok": true
+        },
+        {
+          "src": "/assets/images/abstract-studio.webp",
+          "ok": true
+        },
+        {
+          "src": "/assets/images/abstract-studio.webp",
+          "ok": true
+        },
+        {
+          "src": "/assets/images/abstract-studio.webp",
+          "ok": true
+        },
+        {
+          "src": "/assets/textures/earth.webp",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 8503,
+      "overflowing": [],
+      "images": [
+        {
+          "src": "/assets/images/abstract-studio.webp",
+          "ok": true
+        },
+        {
+          "src": "/assets/images/abstract-studio.webp",
+          "ok": true
+        },
+        {
+          "src": "/assets/images/abstract-studio.webp",
+          "ok": true
+        },
+        {
+          "src": "/assets/images/abstract-studio.webp",
+          "ok": true
+        },
+        {
+          "src": "/assets/textures/earth.webp",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "height": 8994,
+      "overflowing": [],
+      "images": [
+        {
+          "src": "/assets/images/abstract-studio.webp",
+          "ok": true
+        },
+        {
+          "src": "/assets/images/abstract-studio.webp",
+          "ok": true
+        },
+        {
+          "src": "/assets/images/abstract-studio.webp",
+          "ok": true
+        },
+        {
+          "src": "/assets/images/abstract-studio.webp",
+          "ok": true
+        },
+        {
+          "src": "/assets/textures/earth.webp",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "width": 1366,
+      "scrollWidth": 1366,
+      "height": 9227,
+      "overflowing": [],
+      "images": [
+        {
+          "src": "/assets/images/abstract-studio.webp",
+          "ok": true
+        },
+        {
+          "src": "/assets/images/abstract-studio.webp",
+          "ok": true
+        },
+        {
+          "src": "/assets/images/abstract-studio.webp",
+          "ok": true
+        },
+        {
+          "src": "/assets/images/abstract-studio.webp",
+          "ok": true
+        },
+        {
+          "src": "/assets/textures/earth.webp",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "scrollWidth": 1920,
+      "height": 9949,
+      "overflowing": [],
+      "images": [
+        {
+          "src": "/assets/images/abstract-studio.webp",
+          "ok": true
+        },
+        {
+          "src": "/assets/images/abstract-studio.webp",
+          "ok": true
+        },
+        {
+          "src": "/assets/images/abstract-studio.webp",
+          "ok": true
+        },
+        {
+          "src": "/assets/images/abstract-studio.webp",
+          "ok": true
+        },
+        {
+          "src": "/assets/textures/earth.webp",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "width": 1366,
+      "scrollWidth": 1366,
+      "height": 8953,
+      "overflowing": [],
+      "images": [
+        {
+          "src": "/assets/images/abstract-studio.webp",
+          "ok": true
+        },
+        {
+          "src": "/assets/images/abstract-studio.webp",
+          "ok": true
+        },
+        {
+          "src": "/assets/images/abstract-studio.webp",
+          "ok": true
+        },
+        {
+          "src": "/assets/images/abstract-studio.webp",
+          "ok": true
+        },
+        {
+          "src": "/assets/textures/earth.webp",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "width": 844,
+      "scrollWidth": 844,
+      "height": 8553,
+      "overflowing": [],
+      "images": [
+        {
+          "src": "/assets/images/abstract-studio.webp",
+          "ok": true
+        },
+        {
+          "src": "/assets/images/abstract-studio.webp",
+          "ok": true
+        },
+        {
+          "src": "/assets/images/abstract-studio.webp",
+          "ok": true
+        },
+        {
+          "src": "/assets/images/abstract-studio.webp",
+          "ok": true
+        },
+        {
+          "src": "/assets/textures/earth.webp",
+          "ok": true
+        }
+      ]
+    }
+  ],
+  "accessibility": [
+    {
+      "width": 390,
+      "height": 844,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "width": 1366,
+      "height": 900,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "width": 1366,
+      "height": 900,
+      "motion": "no-preference",
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ]
+    }
+  ],
+  "runtimeErrors": [],
+  "requestErrors": []
+}
